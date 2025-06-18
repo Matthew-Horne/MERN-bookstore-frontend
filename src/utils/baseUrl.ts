@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  if (process.env.NODE_ENV === "production") {
+  if (import.meta.env.PROD) {
     return "https://mern-bookstore-backend-2.onrender.com";
   }
   return "http://localhost:5000";
