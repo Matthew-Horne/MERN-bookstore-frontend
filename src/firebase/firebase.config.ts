@@ -16,8 +16,6 @@ if (!firebaseConfig.apiKey) {
   throw new Error("Missing Firebase API key in environment variables.");
 }
 
-console.log("Firebase API Key loaded:", firebaseConfig.apiKey);
-
 let app: FirebaseApp;
 let auth: Auth;
 
