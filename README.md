@@ -30,5 +30,5 @@ This is the frontend for a full stack bookstore web application. Built with **Re
 - [Swiper](https://swiperjs.com/)
 - [Firebase](https://firebase.google.com/) *(optional or planned)*
 
-## 📂 Folder Structure
+
 
